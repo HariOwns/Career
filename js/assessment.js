@@ -128,6 +128,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const interestInput = document.getElementById("interestInput");
     const interestDropdown = document.getElementById("interestDropdown");
 
+    const industryInput = document.getElementById("industryInput");
+    const industryDropdown = document.getElementById("industryDropdown");
+
     /* ========= SKILL AUTOCOMPLETE ========= */
 
     if (skillInput && skillDropdown) {
@@ -199,6 +202,38 @@ document.addEventListener("DOMContentLoaded", function () {
             }
 
             renderDropdown(interestDropdown, suggestions, "interest");
+        });
+    }
+
+    /* ========= INDUSTRY AUTOCOMPLETE ========= */
+
+    if (industryInput && industryDropdown) {
+
+        industryInput.addEventListener("input", async function () {
+
+            const query = this.value.toLowerCase().trim();
+
+            if (!query) {
+                industryDropdown.style.display = "none";
+                return;
+            }
+
+            const rolesData = await loadRoles();
+            const suggestions = [];
+
+            for (let role in rolesData) {
+
+                const category = rolesData[role].category;
+
+                if (category.toLowerCase().includes(query)) {
+                    suggestions.push({
+                        label: category,
+                        category: "Industry"
+                    });
+                }
+            }
+
+            renderDropdown(industryDropdown, suggestions, "industry");
         });
     }
 
