@@ -56,7 +56,15 @@
         </div>
 
             <label>Years of Experience *</label>
-            <input type="number" min="0">
+            <select id="experienceInput" class="select-field">
+                <option value="Fresher">Fresher</option>
+                <option value="1+">1+ Years</option>
+                <option value="2+">2+ Years</option>
+                <option value="3+">3+ Years</option>
+                <option value="5+">5+ Years</option>
+                <option value="10+">10+ Years</option>
+            </select>
+
 
             <div class="btn-row">
                 <div></div>
@@ -73,17 +81,14 @@
                 <button type="button" class="add-btn" onclick="addTag('skill')">Add</button>
                 <div id="skillDropdown" class="autocomplete-dropdown"></div>
             </div>
-
             <div class="tags" id="skillTags"></div>
-                        <label>Your Interests *</label>
-
+            
+            <label>Your Interests *</label>
             <div class="tag-input autocomplete-wrapper">
                 <input type="text" id="interestInput" placeholder="e.g., AI, Healthcare" autocomplete="off">
                 <button type="button" class="add-btn" onclick="addTag('interest')">Add</button>
                 <div id="interestDropdown" class="autocomplete-dropdown"></div>
             </div>
-
-
             <div class="tags" id="interestTags"></div>
 
             <div class="btn-row">
@@ -94,26 +99,41 @@
 
         <!-- STEP 3 -->
         <div class="step" id="step3">
+            <div class="form-group">
+            <label>Career Preference</label>
+            <div class="preference-group">
+                <label class="preference-option">
+                    <input type="checkbox" id="internshipPref">
+                    <span>Internship</span>
+                </label>
+
+                <label class="preference-option">
+                    <input type="checkbox" id="freelancePref">
+                    <span>Freelance</span>
+                </label>
+            </div>
+        </div>
+
             <label>Career Goals *</label>
             <textarea rows="4"></textarea>
 
             <label>Preferred Industries</label>
-
-<div class="tag-input">
-    <input type="text" id="industryInput" placeholder="e.g., IT, Healthcare, Finance">
-    <button type="button" class="add-btn" onclick="addTag('industry')">Add</button>
-</div>
-
-<div class="tags" id="industryTags"></div>
-
-
-            <label>Work Style Preference *</label>
-            <select>
-                <option>Hybrid</option>
-                <option>Remote</option>
-                <option>On-site</option>
+        <div class="tag-input autocomplete-wrapper">
+            <input type="text" id="industryInput" placeholder="e.g., IT, Finance" autocomplete="off">
+            <button type="button" class="add-btn" onclick="addTag('industry')">Add</button>
+            <div id="industryDropdown" class="autocomplete-dropdown"></div>
+        </div>
+        <div class="tags" id="industryTags"></div>
+            
+        <div class="form-group">
+            <label>Work Style Preference</label>
+            <select id="workStyleInput" class="select-field">
+                <option value="Hybrid">Hybrid</option>
+                <option value="Remote">Remote</option>
+                <option value="On-site">On-site</option>
             </select>
-
+        </div>
+        
             <div class="btn-row">
                 <button class="btn-light" onclick="prevStep()">← Previous</button>
                 <button class="btn-primary" onclick="generate()">Generate Recommendations</button>
