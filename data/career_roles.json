@@ -1,0 +1,631 @@
+{
+  "Frontend Developer": {
+    "category": "IT",
+    "level": "Beginner",
+    "type": "Coding",
+    "majors": ["IT", "Computer Science"],
+    "skills": ["HTML", "CSS", "JavaScript"],
+    "salaryINR": {
+      "fresher": "₹3 LPA - ₹6 LPA",
+      "intermediate": "₹6 LPA - ₹12 LPA",
+      "expert": "₹12 LPA - ₹20 LPA"
+    },
+    "careerPath": "Frontend → Full Stack → Tech Lead",
+    "freelance": true
+  },
+
+  "Backend Developer": {
+    "category": "IT",
+    "level": "Beginner",
+    "type": "Coding",
+    "majors": ["IT"],
+    "skills": ["Python", "Node", "SQL"],
+    "salaryINR": {
+      "fresher": "₹4 LPA - ₹7 LPA",
+      "intermediate": "₹8 LPA - ₹15 LPA",
+      "expert": "₹18 LPA - ₹30 LPA"
+    },
+    "careerPath": "Backend → Senior → Architect",
+    "freelance": true
+  },
+
+  "Full Stack Developer": {
+    "category": "IT",
+    "level": "Intermediate",
+    "type": "Coding",
+    "majors": ["IT"],
+    "skills": ["React", "Node", "APIs"],
+    "salaryINR": {
+      "fresher": "₹5 LPA - ₹8 LPA",
+      "intermediate": "₹10 LPA - ₹18 LPA",
+      "expert": "₹20 LPA - ₹35 LPA"
+    },
+    "careerPath": "Full Stack → Senior → Engineering Manager",
+    "freelance": true
+  },
+
+  "Data Analyst": {
+    "category": "IT",
+    "level": "Beginner",
+    "type": "Coding",
+    "majors": ["IT", "Statistics"],
+    "skills": ["Excel", "SQL", "Python"],
+    "salaryINR": {
+      "fresher": "₹4 LPA - ₹7 LPA",
+      "intermediate": "₹8 LPA - ₹15 LPA",
+      "expert": "₹18 LPA - ₹28 LPA"
+    },
+    "careerPath": "Data Analyst → Data Scientist",
+    "freelance": true
+  },
+
+  "Data Scientist": {
+    "category": "AI",
+    "level": "Expert",
+    "type": "Coding",
+    "majors": ["IT", "Data Science"],
+    "skills": ["Machine Learning", "Python"],
+    "salaryINR": {
+      "fresher": "₹6 LPA - ₹10 LPA",
+      "intermediate": "₹15 LPA - ₹25 LPA",
+      "expert": "₹30 LPA - ₹60 LPA"
+    },
+    "careerPath": "Data Scientist → AI Lead",
+    "freelance": true
+  },
+
+  "Cloud Engineer": {
+    "category": "Cloud",
+    "level": "Intermediate",
+    "type": "Coding",
+    "majors": ["IT"],
+    "skills": ["AWS", "Azure"],
+    "salaryINR": {
+      "fresher": "₹5 LPA - ₹9 LPA",
+      "intermediate": "₹12 LPA - ₹22 LPA",
+      "expert": "₹25 LPA - ₹40 LPA"
+    },
+    "careerPath": "Cloud Engineer → Cloud Architect",
+    "freelance": true
+  },
+
+  "Cybersecurity Analyst": {
+    "category": "Cybersecurity",
+    "level": "Beginner",
+    "type": "Coding",
+    "majors": ["IT"],
+    "skills": ["Network Security", "Ethical Hacking"],
+    "salaryINR": {
+      "fresher": "₹4 LPA - ₹8 LPA",
+      "intermediate": "₹10 LPA - ₹20 LPA",
+      "expert": "₹25 LPA - ₹45 LPA"
+    },
+    "careerPath": "Security Analyst → Security Architect",
+    "freelance": true
+  },
+
+  "DevOps Engineer": {
+    "category": "DevOps",
+    "level": "Intermediate",
+    "type": "Coding",
+    "majors": ["IT"],
+    "skills": ["Docker", "CI/CD"],
+    "salaryINR": {
+      "fresher": "₹6 LPA - ₹10 LPA",
+      "intermediate": "₹15 LPA - ₹25 LPA",
+      "expert": "₹30 LPA - ₹50 LPA"
+    },
+    "careerPath": "DevOps → Cloud DevOps Lead",
+    "freelance": true
+  },
+
+  "UI/UX Designer": {
+    "category": "Multimedia",
+    "level": "Beginner",
+    "type": "Non-Coding",
+    "majors": ["Design", "IT"],
+    "skills": ["Figma", "Wireframing"],
+    "salaryINR": {
+      "fresher": "₹3 LPA - ₹6 LPA",
+      "intermediate": "₹8 LPA - ₹15 LPA",
+      "expert": "₹20 LPA - ₹35 LPA"
+    },
+    "careerPath": "UI Designer → Product Designer",
+    "freelance": true
+  },
+
+  "Graphic Designer": {
+    "category": "Multimedia",
+    "level": "Beginner",
+    "type": "Non-Coding",
+    "majors": ["Design"],
+    "skills": ["Photoshop", "Illustrator"],
+    "salaryINR": {
+      "fresher": "₹2.5 LPA - ₹5 LPA",
+      "intermediate": "₹6 LPA - ₹12 LPA",
+      "expert": "₹15 LPA - ₹25 LPA"
+    },
+    "careerPath": "Graphic Designer → Art Director",
+    "freelance": true
+  },
+
+  "Digital Marketing Executive": {
+    "category": "Marketing",
+    "level": "Beginner",
+    "type": "Non-Coding",
+    "majors": ["Marketing", "Business"],
+    "skills": ["SEO", "Social Media", "Google Ads"],
+    "salaryINR": {
+      "fresher": "₹2.5 LPA - ₹5 LPA",
+      "intermediate": "₹6 LPA - ₹12 LPA",
+      "expert": "₹15 LPA - ₹30 LPA"
+    },
+    "careerPath": "DM Executive → Marketing Manager",
+    "freelance": true
+  },
+
+  "Accountant": {
+    "category": "Finance",
+    "level": "Beginner",
+    "type": "Non-Coding",
+    "majors": ["Commerce", "Finance"],
+    "skills": ["Tally", "GST"],
+    "salaryINR": {
+      "fresher": "₹2.5 LPA - ₹4 LPA",
+      "intermediate": "₹5 LPA - ₹10 LPA",
+      "expert": "₹15 LPA - ₹25 LPA"
+    },
+    "careerPath": "Accountant → Finance Manager",
+    "freelance": false
+  },
+
+  "Hardware Engineer": {
+    "category": "Hardware",
+    "level": "Beginner",
+    "type": "Non-Coding",
+    "majors": ["ECE", "Hardware"],
+    "skills": ["Networking", "Troubleshooting"],
+    "salaryINR": {
+      "fresher": "₹3 LPA - ₹6 LPA",
+      "intermediate": "₹7 LPA - ₹12 LPA",
+      "expert": "₹15 LPA - ₹22 LPA"
+    },
+    "careerPath": "Hardware Engineer → Network Architect",
+    "freelance": false
+  },
+
+  "Mobile App Developer": {
+    "category": "IT",
+    "level": "Beginner",
+    "type": "Coding",
+    "majors": ["IT"],
+    "skills": ["Flutter", "React Native", "Java"],
+    "salaryINR": {
+      "fresher": "₹4 LPA - ₹8 LPA",
+      "intermediate": "₹10 LPA - ₹18 LPA",
+      "expert": "₹20 LPA - ₹35 LPA"
+    },
+    "careerPath": "Mobile Dev → Senior → Tech Lead",
+    "freelance": true
+  },
+
+  "QA Tester": {
+    "category": "IT",
+    "level": "Beginner",
+    "type": "Non-Coding",
+    "majors": ["IT"],
+    "skills": ["Manual Testing", "Automation Testing"],
+    "salaryINR": {
+      "fresher": "₹3 LPA - ₹6 LPA",
+      "intermediate": "₹7 LPA - ₹14 LPA",
+      "expert": "₹15 LPA - ₹25 LPA"
+    },
+    "careerPath": "Tester → QA Lead → Test Manager",
+    "freelance": false
+  },
+
+  "System Administrator": {
+    "category": "IT",
+    "level": "Intermediate",
+    "type": "Non-Coding",
+    "majors": ["IT"],
+    "skills": ["Linux", "Server Management"],
+    "salaryINR": {
+      "fresher": "₹4 LPA - ₹7 LPA",
+      "intermediate": "₹8 LPA - ₹15 LPA",
+      "expert": "₹18 LPA - ₹30 LPA"
+    },
+    "careerPath": "Sys Admin → Infrastructure Manager",
+    "freelance": false
+  },
+
+  "Blockchain Developer": {
+    "category": "IT",
+    "level": "Expert",
+    "type": "Coding",
+    "majors": ["IT"],
+    "skills": ["Solidity", "Web3", "Smart Contracts"],
+    "salaryINR": {
+      "fresher": "₹6 LPA - ₹12 LPA",
+      "intermediate": "₹15 LPA - ₹25 LPA",
+      "expert": "₹30 LPA - ₹60 LPA"
+    },
+    "careerPath": "Blockchain Dev → Web3 Architect",
+    "freelance": true
+  },
+
+  "Ethical Hacker": {
+    "category": "Cybersecurity",
+    "level": "Intermediate",
+    "type": "Coding",
+    "majors": ["IT"],
+    "skills": ["Penetration Testing", "Networking"],
+    "salaryINR": {
+      "fresher": "₹5 LPA - ₹9 LPA",
+      "intermediate": "₹12 LPA - ₹22 LPA",
+      "expert": "₹25 LPA - ₹45 LPA"
+    },
+    "careerPath": "Ethical Hacker → Security Consultant",
+    "freelance": true
+  },
+
+  "SAP Consultant": {
+    "category": "Business",
+    "level": "Intermediate",
+    "type": "Non-Coding",
+    "majors": ["Commerce", "Business"],
+    "skills": ["SAP FICO", "ERP"],
+    "salaryINR": {
+      "fresher": "₹5 LPA - ₹10 LPA",
+      "intermediate": "₹12 LPA - ₹20 LPA",
+      "expert": "₹25 LPA - ₹40 LPA"
+    },
+    "careerPath": "SAP Consultant → ERP Lead",
+    "freelance": true
+  },
+
+  "Business Intelligence Analyst": {
+    "category": "Data",
+    "level": "Intermediate",
+    "type": "Coding",
+    "majors": ["IT", "Business"],
+    "skills": ["Power BI", "Tableau", "SQL"],
+    "salaryINR": {
+      "fresher": "₹4 LPA - ₹8 LPA",
+      "intermediate": "₹10 LPA - ₹18 LPA",
+      "expert": "₹20 LPA - ₹35 LPA"
+    },
+    "careerPath": "BI Analyst → BI Manager",
+    "freelance": true
+  },
+
+  "HR Executive": {
+    "category": "Non-IT",
+    "level": "Beginner",
+    "type": "Non-Coding",
+    "majors": ["HR", "Business"],
+    "skills": ["Recruitment", "Communication"],
+    "salaryINR": {
+      "fresher": "₹2.5 LPA - ₹4 LPA",
+      "intermediate": "₹5 LPA - ₹9 LPA",
+      "expert": "₹12 LPA - ₹20 LPA"
+    },
+    "careerPath": "HR → HR Manager",
+    "freelance": false
+  },
+
+  "Content Writer": {
+    "category": "Marketing",
+    "level": "Beginner",
+    "type": "Non-Coding",
+    "majors": ["Any"],
+    "skills": ["Writing", "SEO"],
+    "salaryINR": {
+      "fresher": "₹2 LPA - ₹4 LPA",
+      "intermediate": "₹5 LPA - ₹8 LPA",
+      "expert": "₹10 LPA - ₹18 LPA"
+    },
+    "careerPath": "Writer → Content Strategist",
+    "freelance": true
+  },
+
+  "Video Editor": {
+    "category": "Multimedia",
+    "level": "Beginner",
+    "type": "Non-Coding",
+    "majors": ["Media", "Design"],
+    "skills": ["Premiere Pro", "After Effects"],
+    "salaryINR": {
+      "fresher": "₹2.5 LPA - ₹5 LPA",
+      "intermediate": "₹6 LPA - ₹12 LPA",
+      "expert": "₹15 LPA - ₹25 LPA"
+    },
+    "careerPath": "Editor → Creative Director",
+    "freelance": true
+  },
+
+  "Game Developer": {
+    "category": "IT",
+    "level": "Intermediate",
+    "type": "Coding",
+    "majors": ["IT"],
+    "skills": ["Unity", "C#", "Game Physics"],
+    "salaryINR": {
+      "fresher": "₹4 LPA - ₹8 LPA",
+      "intermediate": "₹10 LPA - ₹20 LPA",
+      "expert": "₹25 LPA - ₹45 LPA"
+    },
+    "careerPath": "Game Dev → Lead Game Engineer",
+    "freelance": true
+  },
+
+  "Network Engineer": {
+    "category": "Hardware",
+    "level": "Beginner",
+    "type": "Non-Coding",
+    "majors": ["ECE", "IT"],
+    "skills": ["Networking", "Cisco"],
+    "salaryINR": {
+      "fresher": "₹3 LPA - ₹6 LPA",
+      "intermediate": "₹7 LPA - ₹14 LPA",
+      "expert": "₹18 LPA - ₹30 LPA"
+    },
+    "careerPath": "Network Engineer → Network Architect",
+    "freelance": false
+  },
+
+  "Financial Analyst": {
+    "category": "Finance",
+    "level": "Intermediate",
+    "type": "Non-Coding",
+    "majors": ["Finance", "Commerce"],
+    "skills": ["Financial Modeling", "Excel"],
+    "salaryINR": {
+      "fresher": "₹4 LPA - ₹7 LPA",
+      "intermediate": "₹8 LPA - ₹18 LPA",
+      "expert": "₹20 LPA - ₹35 LPA"
+    },
+    "careerPath": "Financial Analyst → Finance Manager",
+    "freelance": false
+  },
+
+  "Investment Banker": {
+    "category": "Finance",
+    "level": "Expert",
+    "type": "Non-Coding",
+    "majors": ["Finance"],
+    "skills": ["Valuation", "Corporate Finance"],
+    "salaryINR": {
+      "fresher": "₹8 LPA - ₹15 LPA",
+      "intermediate": "₹20 LPA - ₹40 LPA",
+      "expert": "₹50 LPA - ₹1 Cr"
+    },
+    "careerPath": "IB Analyst → VP → Director",
+    "freelance": false
+  },
+
+  "AR/VR Developer": {
+    "category": "Emerging Tech",
+    "level": "Intermediate",
+    "type": "Coding",
+    "majors": ["IT", "Game Development"],
+    "skills": ["Unity", "ARKit", "VR Interaction"],
+    "salaryINR": {
+      "fresher": "₹5 LPA - ₹10 LPA",
+      "intermediate": "₹12 LPA - ₹22 LPA",
+      "expert": "₹25 LPA - ₹45 LPA"
+    },
+    "careerPath": "AR/VR Dev → XR Architect",
+    "freelance": true
+  },
+
+  "Robotics Engineer": {
+    "category": "Engineering",
+    "level": "Expert",
+    "type": "Coding",
+    "majors": ["Mechanical", "ECE", "IT"],
+    "skills": ["Python", "ROS", "Automation"],
+    "salaryINR": {
+      "fresher": "₹6 LPA - ₹12 LPA",
+      "intermediate": "₹15 LPA - ₹28 LPA",
+      "expert": "₹30 LPA - ₹60 LPA"
+    },
+    "careerPath": "Robotics Engineer → Automation Architect",
+    "freelance": false
+  },
+
+  "Prompt Engineer": {
+    "category": "AI",
+    "level": "Beginner",
+    "type": "Non-Coding",
+    "majors": ["Any"],
+    "skills": ["AI Tools", "Prompt Design", "Critical Thinking"],
+    "salaryINR": {
+      "fresher": "₹6 LPA - ₹12 LPA",
+      "intermediate": "₹15 LPA - ₹25 LPA",
+      "expert": "₹30 LPA - ₹50 LPA"
+    },
+    "careerPath": "Prompt Engineer → AI Consultant",
+    "freelance": true
+  },
+
+  "AI Trainer": {
+    "category": "AI",
+    "level": "Beginner",
+    "type": "Non-Coding",
+    "majors": ["Any"],
+    "skills": ["Data Labeling", "AI Tools"],
+    "salaryINR": {
+      "fresher": "₹3 LPA - ₹6 LPA",
+      "intermediate": "₹8 LPA - ₹15 LPA",
+      "expert": "₹18 LPA - ₹30 LPA"
+    },
+    "careerPath": "AI Trainer → AI Specialist",
+    "freelance": true
+  },
+
+  "Influencer / Content Creator": {
+    "category": "Digital Media",
+    "level": "Beginner",
+    "type": "Non-Coding",
+    "majors": ["Any"],
+    "skills": ["Branding", "Video Editing", "Social Media"],
+    "salaryINR": {
+      "fresher": "₹2 LPA - ₹5 LPA",
+      "intermediate": "₹6 LPA - ₹20 LPA",
+      "expert": "₹25 LPA - ₹1 Cr+"
+    },
+    "careerPath": "Creator → Brand Collaborator → Entrepreneur",
+    "freelance": true
+  },
+
+  "Supply Chain Analyst": {
+    "category": "Business",
+    "level": "Intermediate",
+    "type": "Non-Coding",
+    "majors": ["Commerce", "Logistics"],
+    "skills": ["Data Analysis", "Operations"],
+    "salaryINR": {
+      "fresher": "₹4 LPA - ₹7 LPA",
+      "intermediate": "₹8 LPA - ₹18 LPA",
+      "expert": "₹20 LPA - ₹35 LPA"
+    },
+    "careerPath": "SC Analyst → Operations Manager",
+    "freelance": false
+  },
+
+  "UI Systems Designer": {
+    "category": "Design",
+    "level": "Expert",
+    "type": "Non-Coding",
+    "majors": ["Design"],
+    "skills": ["Design Systems", "Component Libraries"],
+    "salaryINR": {
+      "fresher": "₹5 LPA - ₹9 LPA",
+      "intermediate": "₹12 LPA - ₹20 LPA",
+      "expert": "₹25 LPA - ₹40 LPA"
+    },
+    "careerPath": "UI Designer → Systems Designer → Design Lead",
+    "freelance": true
+  },
+
+  "Growth Hacker": {
+    "category": "Marketing",
+    "level": "Intermediate",
+    "type": "Non-Coding",
+    "majors": ["Marketing"],
+    "skills": ["Analytics", "SEO", "Paid Ads"],
+    "salaryINR": {
+      "fresher": "₹4 LPA - ₹8 LPA",
+      "intermediate": "₹10 LPA - ₹20 LPA",
+      "expert": "₹25 LPA - ₹45 LPA"
+    },
+    "careerPath": "Growth Exec → Growth Manager",
+    "freelance": true
+  },
+
+  "Product Manager": {
+    "category": "Business",
+    "level": "Expert",
+    "type": "Non-Coding",
+    "majors": ["IT", "Business"],
+    "skills": ["Strategy", "Product Roadmap"],
+    "salaryINR": {
+      "fresher": "₹8 LPA - ₹15 LPA",
+      "intermediate": "₹20 LPA - ₹40 LPA",
+      "expert": "₹50 LPA - ₹1 Cr"
+    },
+    "careerPath": "PM → Senior PM → Director",
+    "freelance": false
+  },
+
+  "AR Designer": {
+    "category": "Emerging Tech",
+    "level": "Intermediate",
+    "type": "Non-Coding",
+    "majors": ["Design"],
+    "skills": ["3D Design", "AR Prototyping"],
+    "salaryINR": {
+      "fresher": "₹4 LPA - ₹8 LPA",
+      "intermediate": "₹10 LPA - ₹18 LPA",
+      "expert": "₹20 LPA - ₹35 LPA"
+    },
+    "careerPath": "AR Designer → XR Lead",
+    "freelance": true
+  },
+
+  "Technical Writer": {
+    "category": "IT",
+    "level": "Beginner",
+    "type": "Non-Coding",
+    "majors": ["Any"],
+    "skills": ["Documentation", "Communication"],
+    "salaryINR": {
+      "fresher": "₹3 LPA - ₹6 LPA",
+      "intermediate": "₹8 LPA - ₹14 LPA",
+      "expert": "₹15 LPA - ₹25 LPA"
+    },
+    "careerPath": "Tech Writer → Documentation Lead",
+    "freelance": true
+  },
+
+  "Data Engineer": {
+    "category": "Data",
+    "level": "Intermediate",
+    "type": "Coding",
+    "majors": ["IT"],
+    "skills": ["SQL", "ETL", "Big Data"],
+    "salaryINR": {
+      "fresher": "₹6 LPA - ₹10 LPA",
+      "intermediate": "₹15 LPA - ₹25 LPA",
+      "expert": "₹30 LPA - ₹50 LPA"
+    },
+    "careerPath": "Data Engineer → Data Architect",
+    "freelance": true
+  },
+
+  "Cloud Security Engineer": {
+    "category": "Cloud",
+    "level": "Expert",
+    "type": "Coding",
+    "majors": ["IT"],
+    "skills": ["AWS Security", "IAM"],
+    "salaryINR": {
+      "fresher": "₹7 LPA - ₹12 LPA",
+      "intermediate": "₹18 LPA - ₹30 LPA",
+      "expert": "₹35 LPA - ₹60 LPA"
+    },
+    "careerPath": "Cloud Security → Security Architect",
+    "freelance": true
+  },
+
+  "Automation Engineer": {
+    "category": "Engineering",
+    "level": "Intermediate",
+    "type": "Coding",
+    "majors": ["ECE", "IT"],
+    "skills": ["PLC", "Automation Tools"],
+    "salaryINR": {
+      "fresher": "₹4 LPA - ₹8 LPA",
+      "intermediate": "₹10 LPA - ₹20 LPA",
+      "expert": "₹25 LPA - ₹40 LPA"
+    },
+    "careerPath": "Automation → Plant Manager",
+    "freelance": false
+  },
+
+  "Cyber Forensics Expert": {
+    "category": "Cybersecurity",
+    "level": "Expert",
+    "type": "Coding",
+    "majors": ["IT"],
+    "skills": ["Digital Forensics", "Cyber Law"],
+    "salaryINR": {
+      "fresher": "₹6 LPA - ₹10 LPA",
+      "intermediate": "₹15 LPA - ₹28 LPA",
+      "expert": "₹30 LPA - ₹55 LPA"
+    },
+    "careerPath": "Forensics → Cyber Consultant",
+    "freelance": true
+  }
+}
